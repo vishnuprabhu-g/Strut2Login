@@ -1,12 +1,12 @@
 #This help you to understand the struts2 Folder structure
-->web
---->WEB-INF
------>web.xml
------>classes
-------->struts.xml
---->index.jsp
---->home.jsp
---->error.jsp
-->src
--->com.pkg
----->*.java
+->web  
+--->WEB-INF  
+----->web.xml  
+----->classes  
+------->struts.xml  
+--->index.jsp  
+--->home.jsp  
+--->error.jsp  
+->src  
+-->com.pkg  
+---->*.java  
