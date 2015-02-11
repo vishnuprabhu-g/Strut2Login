@@ -6,5 +6,6 @@
     </head>
     <body>
         <h3>welcome <s:property value="uname" default="ItsD"></s:property> </h3>
+        <p> ${uname} </p>
     </body>
 </html>
