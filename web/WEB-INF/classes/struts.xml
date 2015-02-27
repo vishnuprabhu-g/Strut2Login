@@ -9,5 +9,8 @@
             <result name="success">/home.jsp</result>
             <result name="error">/error.jsp?login=error</result>
         </action>
+        <action name="userImage" class="vis.FileUploadAction">
+            <result>successUserImage.jsp</result>
+        </action>
     </package>
 </struts>

@@ -1,14 +1,17 @@
-<%@taglib prefix="s" uri="/struts-tags"%>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login using Struts2</title>
-    </head>
-    <body>
-        <s:form action="login" method="post">
-            <s:textfield name="uname" label="Enter your uname"></s:textfield>
-            <s:textfield name="pass" label="Enter your password"></s:textfield>
-            <s:submit value="Login" align="center"></s:submit>
-        </s:form>
-    </body>
-</html>
+<%@ page contentType="text/html; charset=UTF-8"%>  
+<%@ taglib prefix="s" uri="/struts-tags"%>  
+<html>  
+    <head>  
+        <title>Upload User Image</title>  
+    </head>  
+      
+        <h2>  
+            Struts2 File Upload & Save Example without Database  
+        </h2>
+        <s:actionerror />  
+        <s:form action="userImage" method="post" enctype="multipart/form-data">  
+            <s:file name="userImage" label="Image" />  
+            <s:submit value="Upload" align="center" />  
+        </s:form>  
+      
+</html>  
